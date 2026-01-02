@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script"
+  },
+  "rules": {
+    "no-undef": "off",
+    "no-unused-vars": "warn",
+    "no-empty": "off",
+    "@typescript-eslint/no-require-imports": "off"
+  }
+}
